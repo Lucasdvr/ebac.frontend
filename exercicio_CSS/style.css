@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5; /* Cor de fundo neutra */
     color: #333;
 }
 
@@ -43,8 +43,8 @@ main {
 
 section {
     flex: 1;
-    max-width: 400px; 
-    margin: 0 10px; 
+    max-width: 400px; /* Largura máxima para cada seção */
+    margin: 0 10px; /* Espaço entre as seções */
 }
 
 h2 {
@@ -57,6 +57,18 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
+}
+.article-esportes{
+    background-color: rgb(233, 231, 255);
+}
+.article-economia{
+    background-color: rgb(255, 231, 200);
+}
+.article-entreterimento{
+    background-color: rgb(255, 205, 205);
+}
+.article-tecnologia{
+    background-color: #d7ffc4;
 }
 
 img {
@@ -71,7 +83,7 @@ time {
 }
 
 .header-time {
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5; /* Cinza claro para header com time */
     padding: 10px;
 }
 
