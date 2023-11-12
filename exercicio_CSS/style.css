@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Cor de fundo neutra */
+    background-color: #f5f5f5;
     color: #333;
 }
 
@@ -42,8 +42,8 @@ main {
 
 section {
     flex: 1;
-    max-width: 400px; /* Largura máxima para cada seção */
-    margin: 0 10px; /* Espaço entre as seções */
+    max-width: 400px; 
+    margin: 0 10px; 
 }
 
 h2 {
@@ -70,7 +70,7 @@ time {
 }
 
 .header-time {
-    background-color: #f5f5f5; /* Cinza claro para header com time */
+    background-color: #f5f5f5; 
     padding: 10px;
 }
 
